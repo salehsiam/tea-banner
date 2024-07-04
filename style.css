@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.tea {
+  height: 90vh;
+  width: 100%;
+  background-image: url(pexels-osmachko-230477.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.component {
+  text-align: center;
+  color: aqua;
+  width: 80%;
+}
+.component h2 {
+  font-size: 53px;
+  text-transform: uppercase;
+  color: rgb(241, 178, 17);
+}
+
+.component p {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.component button {
+  background-color: rgb(241, 178, 17);
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 13px 28px;
+  color: brown;
+  font-size: 16px;
+  cursor: pointer;
+}
+.component button:hover {
+  background-color: rgb(145, 108, 108);
+  color: white;
+  transition: 1s ease-in-out;
+}
